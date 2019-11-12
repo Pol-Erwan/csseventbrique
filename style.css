@@ -93,3 +93,37 @@ input[type=submit]:hover {
   justify-content: center;
   align-items: center;
 }
+
+.card {
+  color: white;
+  background-color: black;
+  border: 2px solid white;
+  padding:2 auto;
+
+}
+
+.line_card {
+  display: flex;
+  flex direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.column_card {
+  display: flex;
+  color: white;
+  background-color: black;
+  border: 2px solid white;
+  padding:2 auto;
+  margin: 16px;
+}
+
+.attendance_card {
+  margin: 6px;
+}
+
+.card-city {
+  display: flex;
+  justify-content: center;
+}
